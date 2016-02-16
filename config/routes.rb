@@ -53,7 +53,7 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  root 'static_pages#home'
+  root 'incomes#index'
   resources :expenses
   resources :incomes
 end
